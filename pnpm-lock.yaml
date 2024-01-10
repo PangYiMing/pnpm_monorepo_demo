@@ -1,0 +1,12 @@
+lockfileVersion: 5.4
+
+importers:
+
+  packages/core:
+    specifiers:
+      foo: workspace:*
+    dependencies:
+      foo: link:../foo
+
+  packages/foo:
+    specifiers: {}
